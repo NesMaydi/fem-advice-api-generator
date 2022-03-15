@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@800&family=Open+Sans&display=swap");
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #202733;
+  font-family: 'Manrope', sans-serif;
+}
+
+.attribution {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+  color: #CEE3E9;
+}
+
+.attribution a {
+  text-decoration: none;
+  color: #53FFAA;
+}
+
+.quote-card {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 120px auto;
+  height: auto;
+  min-height: 315px;
+  width: 343px;
+  background-color: #313A48;
+  -webkit-box-shadow: 30px 50px 80px rgba(0, 0, 0, 0.100202);
+          box-shadow: 30px 50px 80px rgba(0, 0, 0, 0.100202);
+  border-radius: 10px;
+}
+
+.quote-card .advice-id {
+  max-width: -webkit-fit-content;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+  margin-top: 40px;
+  margin-bottom: 24px;
+  font-size: 11px;
+  line-height: 15px;
+  text-align: center;
+  letter-spacing: 3.45714px;
+  color: #53FFAA;
+  text-transform: uppercase;
+}
+
+.quote-card #fitting-quote {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 295px;
+  height: 132px;
+}
+
+.quote-card #fitting-quote .advice-quote {
+  font-size: 22px;
+  line-height: 33px;
+  text-align: center;
+  letter-spacing: -0.257143px;
+  color: #CEE3E9;
+}
+
+.quote-card .pattern-divider {
+  height: 16px;
+  width: 295px;
+  background-image: url(images/pattern-divider-mobile.svg);
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 235px;
+}
+
+.quote-card .button-quote {
+  width: 64px;
+  height: 64px;
+  background: #53FFAA;
+  border-radius: 50%;
+  background-image: url(images/icon-dice.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  left: 40.52%;
+  right: 40.82%;
+  top: 283px;
+}
+
+.quote-card .button-quote:hover {
+  -webkit-box-shadow: 0px 0px 40px #53FFAA;
+          box-shadow: 0px 0px 40px #53FFAA;
+}
+
+@media screen and (min-width: 1440px) {
+  .quote-card {
+    height: 332px;
+    width: 540px;
+  }
+  .quote-card .advice-id {
+    margin-top: 48px;
+    font-size: 13px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 4.08571px;
+  }
+  .quote-card #fitting-quote {
+    height: 114px;
+    width: 444px;
+  }
+  .quote-card #fitting-quote .advice-quote {
+    font-size: 28px;
+    line-height: 38px;
+    text-align: center;
+    letter-spacing: -0.3px;
+  }
+  .quote-card .pattern-divider {
+    height: 16px;
+    width: 444px;
+    background-image: url(images/pattern-divider-desktop.svg);
+  }
+  .quote-card .button-quote {
+    left: 238px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
