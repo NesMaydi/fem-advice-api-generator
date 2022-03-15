@@ -144,6 +144,7 @@ body {
     background-image: url(images/pattern-divider-desktop.svg);
   }
   .quote-card .button-quote {
+    top: 300px;
     left: 238px;
   }
 }
